@@ -1,12 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import styles from './theme.scss'
-let its = '#000000'
-let Header = ({ siteTitle }) => (
+const Header = ({ contactInfo }) => (
   <div
     style={{
-      background: its,
+      background: 'rebeccapurple',
       marginBottom: '1.45rem',
     }}
   >
@@ -25,7 +23,7 @@ let Header = ({ siteTitle }) => (
             textDecoration: 'none',
           }}
         >
-          {siteTitle}
+          {contactInfo}
         </Link>
       </h1>
     </div>
