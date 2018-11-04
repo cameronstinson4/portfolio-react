@@ -2,11 +2,12 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import styles from './theme.scss'
-let its = '#000000'
+let test =  styles.appPrimaryColor //reslves to '#40b4c4'
+
 let Header = ({ siteTitle }) => (
   <div
     style={{
-      background: its,
+      background: '#40b4c4',
       marginBottom: '1.45rem',
     }}
   >
