@@ -1,13 +1,9 @@
-// primary_color: '#40b4c4',
-// secondary_color: '#ffffff',
-// highlight_color: '#74dfc4'
-
-$app-primary-color:#40b4c4;
-$app-secondary_color: #ffffff;
-$app-highlight_color: #74dfc4;
+$app_primary_color:#40b4c4;
+$app_secondary_color: #FFFFFF;
+$app_highlight_color: #FF9E53;
 
 :export {
-  appPrimaryColor: $app-primary-color;
-  appSecondaryColor: $app-secondary_color;
-  appHighlightColor: $app-highlight_color;
+  appPrimaryColor: $app_primary_color;
+  appSecondaryColor: $app_secondary_color;
+  appHighlightColor: $app_highlight_color;
 }
