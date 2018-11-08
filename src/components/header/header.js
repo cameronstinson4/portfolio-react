@@ -3,22 +3,19 @@ import { Link } from 'gatsby'
 
 import styles from './header.module.scss'
 
-let Header = ({ siteTitle }) => (
+let Header = ({  }) => (
   <div
     className={styles.header}
   >
-    <div
-      className={styles.h1Padding}
-    >
-      <h1 style={{ margin: 0 }}>
+        <h1 style={{ margin: 0 }}>
         <Link
           to="/"
           className={styles.h1Link}
         >
-          {siteTitle}
+          Cameron <br></br> Stinson
         </Link>
       </h1>
-    </div>
+
   </div>
 )
 
