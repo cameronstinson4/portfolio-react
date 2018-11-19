@@ -1,12 +1,22 @@
-@import "../theme";
+@import "../../theme";
 
 .header {
   background: $app_dark_color;
   margin: 0 auto;
-
+  padding: 0 10%;;
 }
 
 .h1Link {
   color: $app_primary_color;
   text-decoration: none;
+  margin: 0 auto;
+
+}
+
+.bigText {
+
+}
+
+.smallText {
+
 }

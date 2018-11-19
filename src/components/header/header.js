@@ -3,14 +3,14 @@ import { Link } from 'gatsby'
 
 import styles from './header.module.scss'
 
-let Header = ({  }) => (
+let Header = ({ big }) => (
   <div
     className={styles.header}
   >
-        <h1 style={{ margin: 0 }}>
+        <h1>
         <Link
           to="/"
-          className={styles.h1Link}
+          className={ `${styles.h1Link} ${big ? styles.bigText : styles.smallText}` }
         >
           Cameron <br></br> Stinson
         </Link>
