@@ -1,22 +1,28 @@
 @import "../../theme";
 
 .header {
-  background: $app_dark_color;
-  margin: 0 auto;
-  padding: 0 10%;;
+  background-color: $app_dark_color;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.headerContainer {
+  margin: 0 10%;
 }
 
 .h1Link {
   color: $app_primary_color;
   text-decoration: none;
-  margin: 0 auto;
+}
+
+.largeText {
+  font-size: 7rem;
 
 }
 
-.bigText {
-
-}
-
-.smallText {
-
+@media only screen and (max-width: $app_media_query) {
+  .headerContainer {
+    margin: 0 auto;
+    text-align: center;
+  }
 }

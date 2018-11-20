@@ -10,7 +10,7 @@ import Footer from '../footer/footer'
 import text from '../../text-content'
 import './layout.scss'
 
-const Layout = ({ children }) => (
+const Layout = ({ children, largeHeader }) => (
   <div>
     <Helmet
       title={ text.title }
@@ -22,7 +22,7 @@ const Layout = ({ children }) => (
       <html lang="en" />
     </Helmet>
     <Sidebar />
-    <Header big={ true } />
+    <Header large={ largeHeader } />
     <div className={ "container" }>
       {children}
     </div>
