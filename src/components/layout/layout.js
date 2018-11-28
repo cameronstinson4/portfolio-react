@@ -13,7 +13,7 @@ import './layout.scss'
 const Layout = ({ children, largeHeader }) => (
   <div>
     <Helmet
-      title={ text.title }
+      title={text.title}
       meta={[
         { name: 'description', content: text.description },
         { name: 'keywords', content: text.keywords },
@@ -22,11 +22,13 @@ const Layout = ({ children, largeHeader }) => (
       <html lang="en" />
     </Helmet>
     <Sidebar />
-    <Header large={ largeHeader } />
-    <div className={ "container" }>
+    <Header large={largeHeader} />
+    <div className={"container"}>
       {children}
     </div>
-    <Footer />
+    <div className='footer'>
+      <Footer />
+    </div>
   </div>
 )
 

@@ -30,10 +30,13 @@
 }
 
 .navItem {
-  // padding: 1rem 1rem 1rem 1rem;
   margin: 1rem 1rem;
   color: $app_primary_color;
   text-decoration: none;
+}
+
+.navFlexBox:first-child {
+  margin: 0rem -1rem;
 }
 
 .navLink {
@@ -41,11 +44,6 @@
   color: $app_secondary_color;
 }
 
-.material-icons {
-  color: $app_secondary_color;
-  font-size: 2rem;
-  // padding: 1rem 2rem 0rem 2rem;
-}
 
 @media only screen and (max-width: $app_media_query) {
 
