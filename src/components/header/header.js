@@ -33,19 +33,27 @@ let Header = ({ large }) => (
           </div>
           <div className={`${styles.navFlexBox}`} >
             <div className={`${styles.navItem}`}>
-              <Link to="/about/" className={`${styles.navLink}`}>about</Link>
+              <Link to="/about/"
+                className={`${styles.navLink}`}
+                activeClassName={`${styles.activeNavLink}`}>about</Link>
             </div>
 
             <div className={`${styles.navItem}`}>
-              <Link to="experience" className={`${styles.navLink}`}>experience</Link>
+              <Link to="experience"
+                className={`${styles.navLink}`}
+                activeClassName={`${styles.activeNavLink}`}>experience</Link>
             </div>
 
             <div className={`${styles.navItem}`}>
-              <Link to="projects" className={`${styles.navLink}`}>projects</Link>
+              <Link to="projects"
+                className={`${styles.navLink}`}
+                activeClassName={`${styles.activeNavLink}`}>projects</Link>
             </div>
 
             <div className={`${styles.navItem}`}>
-              <Link to="cool" className={`${styles.navLink}`}>cool</Link>
+              <Link to="cool"
+                className={`${styles.navLink}`}
+                activeClassName={`${styles.activeNavLink}`}>cool</Link>
             </div>
           </div>
         </div>
