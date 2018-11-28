@@ -50,4 +50,16 @@
 
 @media only screen and (max-width: $app_media_query) {
 
+  .largeText {
+    font-size: 6rem;
+  }
+
+}
+
+@media only screen and (min-width: $app_media_query_high) {
+
+  .largeText {
+    font-size: 9rem;
+  }
+  
 }

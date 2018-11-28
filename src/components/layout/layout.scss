@@ -602,11 +602,17 @@ pre tt:after {
 }
 @media only screen and (max-width: $app_media_query) {
   html {
-    font-size:65%;
+    font-size:80%;
   }
   .container {
     margin: 0 auto;
 
+  }
+}
+
+@media only screen and (min-width: $app_media_query_high) {
+  html {
+    font-size:120%;
   }
 }
 
@@ -622,3 +628,4 @@ h1 {
 .footer {
   margin:10% 0 0 0;
 }
+
