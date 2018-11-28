@@ -3,14 +3,15 @@
 .header {
   background-color: $app_dark_color;
   width: 100%;
-  padding: 1rem 0;
 }
 
 .headerContainer {
   margin: 0 10%;
+  padding: 0 0 0.01rem 0;
+
 }
 
-.h1Link {
+.link {
   color: $app_primary_color;
   text-decoration: none;
 }
@@ -20,9 +21,32 @@
 
 }
 
+.navFlexBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  font-family: 'Courier New', Courier, monospace;
+  color: $app_secondary_color;
+}
+
+.navItem {
+  // padding: 1rem 1rem 1rem 1rem;
+  margin: 1rem 1rem;
+  color: $app_primary_color;
+  text-decoration: none;
+}
+
+.navLink {
+  text-decoration: none;
+  color: $app_secondary_color;
+}
+
+.material-icons {
+  color: $app_secondary_color;
+  font-size: 2rem;
+  // padding: 1rem 2rem 0rem 2rem;
+}
+
 @media only screen and (max-width: $app_media_query) {
-  .headerContainer {
-    margin: 0 auto;
-    text-align: center;
-  }
+
 }

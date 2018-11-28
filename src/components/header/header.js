@@ -8,21 +8,14 @@ function isLarge(large) {
     return <h1>
       <Link
         to="/"
-        className={`${styles.h1Link} ${styles.largeText}`}
+        className={`${styles.link} ${styles.largeText}`}
       >
         Cameron <br></br> Stinson
     </Link>
     </h1>
   }
   else {
-    return <h1>
-      <Link
-        to="/"
-        className={`${styles.h1Link}`}
-      >
-        Cameron Stinson
-  </Link>
-    </h1>
+    return
   }
 }
 
@@ -31,9 +24,33 @@ let Header = ({ large }) => (
     className={styles.header}
   >
     <div className={styles.headerContainer}>
+
+      <nav>
+
+        <div className={`${styles.navFlexBox}`} >
+          <div className={`${styles.navItem}`}>
+            <Link to="/" className={`${styles.link}`}>user@cameronstinson.com:~$</Link>
+          </div>
+          <div className={`${styles.navFlexBox}`} >
+            <div className={`${styles.navItem}`}>
+              <Link to="/page-2/" className={`${styles.navLink}`}>about</Link>
+            </div>
+
+            <div className={`${styles.navItem}`}>
+              <Link to="/page-3/" className={`${styles.navLink}`}>experience</Link>
+            </div>
+
+            <div className={`${styles.navItem}`}>
+              <Link to="/page-3/" className={`${styles.navLink}`}>projects</Link>
+            </div>
+          </div>
+        </div>
+
+      </nav>
+
       {isLarge(large)}
     </div>
-  </div>
+  </div >
 )
 
 export default Header
