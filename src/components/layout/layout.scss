@@ -144,7 +144,6 @@ fieldset {
 }
 legend {
   box-sizing: border-box;
-  color: inherit;
   display: table;
   max-width: 100%;
   padding: 0;
@@ -171,7 +170,6 @@ textarea {
   -webkit-appearance: none;
 }
 ::-webkit-input-placeholder {
-  color: inherit;
   opacity: .54;
 }
 ::-webkit-file-upload-button {
@@ -222,7 +220,6 @@ h1 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -237,7 +234,6 @@ h2 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -252,7 +248,6 @@ h3 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -267,7 +262,6 @@ h4 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -282,7 +276,6 @@ h5 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
@@ -297,7 +290,6 @@ h6 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
