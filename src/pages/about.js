@@ -1,8 +1,6 @@
 import React, { Component } from "react"
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout/layout'
-import styles from './pages.module.scss'
 
 class AboutPage extends Component {
 

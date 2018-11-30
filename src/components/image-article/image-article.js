@@ -14,7 +14,11 @@ class ImageArticle extends Component {
       <h3 className={styles.articleTag}>{`<${this.props.articleTitle}>`}</h3>
 
       <div className={styles.content}>
-        <img src={this.props.imgSrc} alt={this.props.imgAlt}></img>
+        <img
+          className={this.props.smallImage ? styles.smallImage : styles.image}
+          src={this.props.imgSrc}
+          alt={this.props.imgAlt}></img>
+
         {this.props.children}
       </div>
 

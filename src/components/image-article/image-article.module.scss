@@ -16,3 +16,18 @@
   font-family: 'Courier New', Courier, monospace;
   margin: 0;
 }
+
+.smallImage {
+  width:30%;
+}
+
+.image {
+  width: 100%
+}
+
+@media only screen and (max-width: $app_media_query) {
+  .smallImage {
+    width: 80%;
+  }
+}
+
