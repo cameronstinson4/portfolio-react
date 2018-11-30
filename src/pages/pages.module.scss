@@ -1,0 +1,11 @@
+@import "../theme";
+
+
+.link {
+  text-decoration: none;
+  color: $app_dark_color;
+}
+
+.link:hover {
+  text-decoration: underline !important;
+}

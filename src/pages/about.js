@@ -2,12 +2,13 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout/layout'
+import styles from './pages.module.scss'
 
 const AboutPage = () => (
   <Layout largeHeader={false}>
-    <h1>Hi from the second Aboutpage</h1>
-    <p>Welcome to Aboutpage 2</p>
-    <Link to="/">Go back to the homeAboutpage</Link>
+    <h1>About</h1>
+    <p>Under Construction</p>
+    <Link className={styles.link} to="/">home</Link>
   </Layout>
 )
 
