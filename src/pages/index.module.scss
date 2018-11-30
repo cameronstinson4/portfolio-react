@@ -1,0 +1,22 @@
+@import "../theme";
+
+.content {
+  padding: 1rem 0;
+}
+
+h1 {
+  color: $app_dark_color;
+  text-decoration: none;
+}
+
+.faded {
+  opacity: 0;
+  transition: 500ms;
+  transition-timing-function: ease-in-out;
+}
+
+.unFaded {
+  opacity: 1;
+  transition: 500ms;
+  transition-timing-function: ease-in-out;
+}
