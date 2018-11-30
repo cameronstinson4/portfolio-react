@@ -1,14 +1,10 @@
 @import "../../theme";
 
 .footerContainer {
-  margin: 0 10%;
-  padding: 0 0 0.01rem 0;
-
+  margin: $body_content_margin;
 }
 
 .contactItem {
-  font-family: 'Courier New', Courier, monospace;
-  text-decoration: none;
   color: $app_dark_color;
 }
 
@@ -16,4 +12,13 @@
   font-family: 'Courier New', Courier, monospace;
   text-decoration: none;
   color: $app_dark_color;
+}
+
+@media only screen and (max-width: $app_media_query) {
+
+  .contactLink {
+    font-size: $mobile_monospace_font_size;
+    font-weight: $mobile_monospace_font_weight;
+  }
+
 }

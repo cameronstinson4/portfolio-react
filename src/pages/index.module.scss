@@ -12,11 +12,9 @@ h1 {
 .faded {
   opacity: 0;
   transition: 500ms;
-  transition-timing-function: ease-in-out;
 }
 
 .unFaded {
   opacity: 1;
   transition: 500ms;
-  transition-timing-function: ease-in-out;
 }

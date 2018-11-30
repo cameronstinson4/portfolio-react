@@ -5,9 +5,23 @@ $app_secondary_color: #FFFFFF;
 $app_highlight_color: #FF9E53;
 $app_dark_color: #000000;
 
-// Break Point
+// Break Points
 $app_media_query: 650px;
 $app_media_query_high: 1250px;
+
+// Various font sizes weights
+$large_font_size: 7rem;
+
+$mobile_monospace_font_size: 120%;
+$mobile_monospace_font_weight: 500;
+
+$largedisplay_monospace_font_size: 120%;
+
+$mobile_large_font_size: 6rem;
+$largedisplay_large_font_size: 9rem;
+
+// Master margin
+$body_content_margin: 0 10%;
 
 .material-icons {
   font-family: 'Material Icons';
