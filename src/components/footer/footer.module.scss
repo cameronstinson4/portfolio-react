@@ -14,6 +14,10 @@
   color: $app_dark_color;
 }
 
+.contactLink:hover {
+  text-decoration: underline !important;
+}
+
 @media only screen and (max-width: $app_media_query) {
 
   .contactLink {

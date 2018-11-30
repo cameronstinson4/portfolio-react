@@ -1,9 +1,9 @@
 @import "../theme";
 
-
 .link {
   text-decoration: none;
-  color: $app_dark_color;
+  color: $app_primary_color;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .link:hover {
