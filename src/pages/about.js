@@ -1,6 +1,9 @@
 import React, { Component } from "react"
 
 import Layout from '../components/layout/layout'
+import ImageArticle from '../components/image-article/image-article'
+
+import profileImage from '../images/me.jpeg'
 
 class AboutPage extends Component {
 
@@ -10,8 +13,14 @@ class AboutPage extends Component {
 
   render = () => (
     <Layout largeHeader={false}>
-      <h1>About</h1>
-      <p>Under Construction</p>
+
+      <ImageArticle
+        articleTitle={`about-me`}
+        imgSrc={profileImage}
+        imgAlt={`headshot`}
+        imgSize={`large`}>
+        <h5>Software Engineer with a varied and diverse background and education</h5>
+      </ImageArticle>
     </Layout>
   )
 }

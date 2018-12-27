@@ -22,8 +22,8 @@ class ExperiencePage extends Component {
       <ImageArticle
         articleTitle={`capital-one`}
         imgSrc={c1Logo}
-        imgAlt={'a'}
-        smallImage={true}>
+        imgAlt={'capital one logo'}
+        imgSize={`small`}>
         <h5 className={styles.smallMargin}>Titles</h5>
         <ul className={styles.titleList}>
           <li className={styles.titleListItem}>
@@ -53,8 +53,8 @@ class ExperiencePage extends Component {
       <ImageArticle
         articleTitle={`united-network-for-organ-sharing`}
         imgSrc={unosLogo}
-        imgAlt={'a'}
-        smallImage={true}>
+        imgAlt={'united network for orgran sharing logo'}
+        imgSize={`small`}>
         <h5 className={styles.smallMargin}>Titles</h5>
         <ul className={styles.titleList}>
           <li className={styles.titleListItem}>
@@ -83,8 +83,8 @@ class ExperiencePage extends Component {
       <ImageArticle
         articleTitle={`id-tech-camps`}
         imgSrc={idTechLogo}
-        imgAlt={'a'}
-        smallImage={true}>
+        imgAlt={'id tech logo'}
+        imgSize={`small`}>
 
         <h5 className={styles.smallMargin}>Title</h5>
         <ul className={styles.titleList}>

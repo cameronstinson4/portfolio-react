@@ -17,17 +17,40 @@
   margin: 0;
 }
 
-.smallImage {
-  width:30%;
+.smallImg {
+  max-width: 30%;
+  max-height: 30rem;
 }
 
-.image {
-  width: 100%
+.mediumImg {
+  max-width: 55%;
+  max-height: 30rem;
+
+}
+
+.largeImg {
+  max-width: 80%;
+  max-height: 30rem;
+
 }
 
 @media only screen and (max-width: $app_media_query) {
-  .smallImage {
-    width: 80%;
+  .smallImg {
+    max-width: 30%;
+    max-height: 30rem;
+
+  }
+  
+  .mediumImg {
+    max-width: 55%;
+    max-height: 30rem;
+
+  }
+  
+  .largeImg {
+    max-width: 80%;
+    max-height: 30rem;
+
   }
 }
 

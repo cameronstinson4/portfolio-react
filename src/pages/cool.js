@@ -24,7 +24,8 @@ class CoolPage extends Component {
       <ImageArticle
         articleTitle={text.metroGraphTitle}
         imgSrc={metroGraphImage}
-        imgAlt={text.metroGraphTitle}>
+        imgAlt={text.metroGraphTitle}
+        imgSize={`large`}>
         <h5>Summary</h5>
 
         <p>Graphs are fun and so are trains, so I scraped data from the Washington Metro Area Transit Authority's

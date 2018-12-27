@@ -7,6 +7,13 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/images`,
+        name: 'images',
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'Cameron Stinson is Cool',
@@ -29,5 +36,7 @@ module.exports = {
         ],
       },
     },
+    `gatsby-transformer-sharp`, `gatsby-plugin-sharp`, 'gatsby-image'
+
   ],
 }
