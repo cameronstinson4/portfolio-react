@@ -7,6 +7,7 @@ import styles from './pages.module.scss'
 
 import text from '../text-content'
 import metroGraphImage from '../images/msp.png'
+import vegasMoon from '../images/vegas-moon.jpeg'
 
 class CoolPage extends Component {
 
@@ -15,11 +16,21 @@ class CoolPage extends Component {
   }
 
   render = () => (
+
     <Layout largeHeader={false}>
-      <h1>Cool Page</h1>
-      <p>A page I throw cool stuff on occasion.
+
+      <ImageArticle
+        articleTitle={'cool-domain'}
+        imgSrc={vegasMoon}
+        imgAlt={'vegas moon'}
+        imgSize={`large`}>
+
+        <h1>Cool Page</h1>
+        <p>A page I throw cool stuff on occasion.
         Check out my other domain for the latest and greatest of cool.</p>
-      <a className={styles.link} href={text.coolDomainLink}>{text.coolDomainLink}</a>
+        <a className={styles.link} href={text.coolDomainLink}>{text.coolDomainLink}</a>
+
+      </ImageArticle>
 
       <ImageArticle
         articleTitle={text.metroGraphTitle}

@@ -2,7 +2,7 @@ import React from 'react'
 
 import styles from './footer.module.scss'
 
-const Footer = ({ }) => (
+const Footer = () => (
   <div>
     <div className={styles.footerContainer}>
       <h3> Contact Me </h3>

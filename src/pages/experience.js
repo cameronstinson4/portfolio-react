@@ -6,6 +6,8 @@ import ImageArticle from '../components/image-article/image-article'
 import idTechLogo from '../images/id-tech-logo.png'
 import unosLogo from '../images/unos-logo.png'
 import c1Logo from '../images/c1-logo.png'
+import cnuLogo from '../images/cnu-logo.png'
+import awsLogo from '../images/aws-logo.png'
 
 import styles from './pages.module.scss'
 
@@ -17,7 +19,6 @@ class ExperiencePage extends Component {
 
   render = () => (
     <Layout largeHeader={false}>
-      <h1>Experience</h1>
 
       <ImageArticle
         articleTitle={`capital-one`}
@@ -27,6 +28,9 @@ class ExperiencePage extends Component {
         <h5 className={styles.smallMargin}>Titles</h5>
         <ul className={styles.titleList}>
           <li className={styles.titleListItem}>
+            Senior Associate Software Engineer
+          </li>
+          <li className={styles.titleListItem}>
             Associate Software Engineer
           </li>
           <li className={styles.titleListItem}>
@@ -34,17 +38,28 @@ class ExperiencePage extends Component {
           </li>
         </ul>
 
+        <h5 className={styles.smallMargin}>Dates</h5>
+        <ul className={styles.titleList}>
+          <li className={styles.titleListItem}>
+            2017-Current
+          </li>
+        </ul>
+
         <h5 className={styles.smallMargin}>Workplace</h5>
         <ul className={styles.titleList}>
           <li className={styles.titleListItem}>
-            Capital One
+            Capital One Finance is a Fortune 100 Company specializing in credit cards, auto financing, and banking.
           </li>
         </ul>
 
         <h5 className={styles.smallMargin}>Job Duties</h5>
         <ul className={styles.titleList}>
-          <li className={styles.titleListItem}> 
+          <li className={styles.titleListItem}>
+            <h5>Agile team member working with following technologies</h5>
 
+            <p>Application monitoring, AWS Cloud infrastructure management,
+              Angular, Node, Express, React, Python, Natural Language Processing,
+              Machine Learning, Enterprise Architecture, Microservices, Streaming Data</p>
           </li>
         </ul>
 
@@ -65,6 +80,13 @@ class ExperiencePage extends Component {
           </li>
         </ul>
 
+        <h5 className={styles.smallMargin}>Dates</h5>
+        <ul className={styles.titleList}>
+          <li className={styles.titleListItem}>
+            2016-2017
+          </li>
+        </ul>
+
         <h5 className={styles.smallMargin}>Workplace</h5>
         <ul className={styles.titleList}>
           <li className={styles.titleListItem}>
@@ -75,7 +97,9 @@ class ExperiencePage extends Component {
         <h5 className={styles.smallMargin}>Job Duties</h5>
         <ul className={styles.titleList}>
           <li className={styles.titleListItem}>
+            <h5>Agile team member working with following technologies</h5>
 
+            <p>Kanban, C#, .Net, Web APIs, Visual Basic.Net, SQL</p>
           </li>
         </ul>
       </ImageArticle>
@@ -90,6 +114,13 @@ class ExperiencePage extends Component {
         <ul className={styles.titleList}>
           <li className={styles.titleListItem}>
             Instructor
+          </li>
+        </ul>
+
+        <h5 className={styles.smallMargin}>Dates</h5>
+        <ul className={styles.titleList}>
+          <li className={styles.titleListItem}>
+            2015
           </li>
         </ul>
 
@@ -116,6 +147,60 @@ class ExperiencePage extends Component {
 
           <li className={styles.titleListItem}>
             Leading a weekly presentation for parents
+          </li>
+        </ul>
+
+      </ImageArticle>
+
+      <ImageArticle
+        articleTitle={`education`}
+        imgSrc={cnuLogo}
+        imgAlt={'cnu'}
+        imgSize={`small`}>
+
+        <h5 className={styles.smallMargin}>Degrees</h5>
+        <ul className={styles.titleList}>
+          <li className={styles.titleListItem}>
+            B.S. in Computer Science
+          </li>
+          <li className={styles.titleListItem}>
+            B.S. in Computer Engineering
+          </li>
+        </ul>
+
+        <h5 className={styles.smallMargin}>Dates</h5>
+        <ul className={styles.titleList}>
+          <li className={styles.titleListItem}>
+            2012-2016
+          </li>
+        </ul>
+
+        <h5 className={styles.smallMargin}>GPA</h5>
+        <ul className={styles.titleList}>
+          <li className={styles.titleListItem}>
+            3.0
+          </li>
+        </ul>
+
+      </ImageArticle>
+
+      <ImageArticle
+        articleTitle={`certifications`}
+        imgSrc={awsLogo}
+        imgAlt={'aws'}
+        imgSize={`small`}>
+
+        <h5 className={styles.smallMargin}>Cert</h5>
+        <ul className={styles.titleList}>
+          <li className={styles.titleListItem}>
+            Solutions Architect Associate
+          </li>
+        </ul>
+
+        <h5 className={styles.smallMargin}>Date</h5>
+        <ul className={styles.titleList}>
+          <li className={styles.titleListItem}>
+            2018
           </li>
         </ul>
 

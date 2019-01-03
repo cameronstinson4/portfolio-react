@@ -1,8 +1,6 @@
 import React, { Component } from "react"
-import { graphql } from "gatsby"
 
 import styles from './image-article.module.scss'
-import Img from "gatsby-image"
 
 
 class ImageArticle extends Component {
@@ -45,15 +43,3 @@ class ImageArticle extends Component {
   )
 }
 export default ImageArticle
-
-export const pageQuery = graphql`
-  query {
-    imageOne: file(relativePath: { eq: "one.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`
