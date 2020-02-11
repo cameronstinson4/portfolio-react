@@ -20,6 +20,43 @@ class ExperiencePage extends Component {
   render = () => (
     <Layout largeHeader={false}>
 
+    <ImageArticle
+        articleTitle={`amazon-web-services`}
+        imgSrc={awsLogo}
+        imgAlt={'aws logo'}
+        imgSize={`small`}>
+        <h5 className={styles.smallMargin}>Title</h5>
+        <ul className={styles.titleList}>
+          <li className={styles.titleListItem}>
+            Software Development Engineer II
+          </li>
+        </ul>
+
+        <h5 className={styles.smallMargin}>Dates</h5>
+        <ul className={styles.titleList}>
+          <li className={styles.titleListItem}>
+            2020-Current
+          </li>
+        </ul>
+
+        <h5 className={styles.smallMargin}>Workplace</h5>
+        <ul className={styles.titleList}>
+          <li className={styles.titleListItem}>
+            Amazon Web Services is a cloud service provider.
+          </li>
+        </ul>
+
+        <h5 className={styles.smallMargin}>Job Duties</h5>
+        <ul className={styles.titleList}>
+          <li className={styles.titleListItem}>
+
+            <p>Working on S3 cloud object storage service</p>
+
+          </li>
+        </ul>
+
+      </ImageArticle>
+
       <ImageArticle
         articleTitle={`capital-one`}
         imgSrc={c1Logo}
@@ -41,7 +78,7 @@ class ExperiencePage extends Component {
         <h5 className={styles.smallMargin}>Dates</h5>
         <ul className={styles.titleList}>
           <li className={styles.titleListItem}>
-            2017-Current
+            2017-2019
           </li>
         </ul>
 
