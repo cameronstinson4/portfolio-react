@@ -1,22 +1,22 @@
 {
   "name": "cameron-stinson-portfolio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Cameron Stinson",
   "dependencies": {
-    "gatsby": "^2.0.19",
-    "gatsby-image": "^2.0.25",
-    "gatsby-plugin-google-fonts": "0.0.4",
-    "gatsby-plugin-manifest": "^2.0.5",
-    "gatsby-plugin-offline": "^2.0.5",
-    "gatsby-plugin-react-helmet": "^3.0.0",
-    "gatsby-plugin-sass": "^2.0.2",
-    "gatsby-plugin-sharp": "^2.0.15",
-    "gatsby-source-filesystem": "^2.0.12",
-    "gatsby-transformer-sharp": "^2.1.9",
-    "node-sass": "^4.9.4",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1",
-    "react-helmet": "^5.2.0"
+    "gatsby": "^2.19.25",
+    "gatsby-image": "^2.2.42",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-manifest": "^2.2.42",
+    "gatsby-plugin-offline": "^3.0.35",
+    "gatsby-plugin-react-helmet": "^3.1.22",
+    "gatsby-plugin-sass":"2.1.29",
+    "gatsby-plugin-sharp": "^2.4.5",
+    "gatsby-source-filesystem": "^2.1.48",
+    "gatsby-transformer-sharp": "^2.3.16",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-helmet": "^5.2.1"
   },
   "keywords": [
     "gatsby"
@@ -29,7 +29,7 @@
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "devDependencies": {
-    "prettier": "^1.14.2"
+    "prettier": "*"
   },
   "repository": {
     "type": "git",
