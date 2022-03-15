@@ -21,7 +21,7 @@ class AboutPage extends Component {
         imgSize={`large`}>
 
         <h4>Software Engineer</h4>
-        <p>Varied interest in all things engineering: blockchain, machine learning, and cloud infrastructure. B.S. in Computer Science and Engineering as well as a certified AWS Solutions Architect.</p>
+        <p>Varied interest in all things engineering and systems design. B.S. in Computer Science and Engineering as well as a certified AWS Solutions Architect.</p>
 
         <p>Lover of hot sauce and national parks. Notoriously bad at writing bios.</p>
 
