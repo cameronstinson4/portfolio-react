@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "author": "Cameron Stinson",
   "dependencies": {
-    "gatsby": "^2.19.25",
+    "gatsby": "^5.7.0",
     "gatsby-image": "^2.2.42",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-manifest": "^2.2.42",
