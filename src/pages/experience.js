@@ -28,6 +28,9 @@ class ExperiencePage extends Component {
         <h5 className={styles.smallMargin}>Title</h5>
         <ul className={styles.titleList}>
           <li className={styles.titleListItem}>
+            Senior Software Development Engineer
+          </li>
+          <li className={styles.titleListItem}>
             Software Development Engineer II
           </li>
         </ul>
